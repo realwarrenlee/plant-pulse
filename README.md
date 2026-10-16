@@ -1,8 +1,15 @@
-# Plant Pulse
+# PlantPulse
 
 A prototype that helps water-treatment operators investigate unusual readings and possible excess electricity use.
 
-Built for **Projet: Hack & Hire**, which kicked off on **10 October 2026**: one week to build on a real company problem, followed by a 15-minute defence with its hiring team.
+Built for **Projet: Hack & Hire**, which kicked off on **10 October 2026**. One week to build on a real company problem, followed by a 15-minute pitch to its hiring team.
+
+Hiring companies:
+
+1. SystemEarth. Singapore-based sustainability and compliance intelligence startup using AI and satellite data to help companies stay ahead of supply-chain regulations like the EU Deforestation Regulation.
+2. BlueNexus. Singapore water-tech company building AI-operated, autonomous water treatment and reuse infrastructure for water-intensive industrial and municipal operations.
+3. 3.Bizsu. Singapore ESG startup building CONTINEWM which cuts building air-conditioning energy use by up to 25%, with clients like CapitaLand, Marina Bay Sands, and OCBC.
+4. 4.beez-fm. Singapore PropTech/GreenTech startup running RizaOne, a zero-CAPEX outcome-based marketplace that matches buildings to verified decarbonisation retrofits and green capital.
 
 ## BlueNexus
 

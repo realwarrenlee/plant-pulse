@@ -11,7 +11,7 @@ export function AppSidebar({ active, onNavigate }: { active: PageId; onNavigate:
   return <Sidebar collapsible="offcanvas" variant="inset">
     <SidebarHeader><SidebarMenu><SidebarMenuItem>
       <SidebarMenuButton onClick={() => navigate('overview')} className="data-[slot=sidebar-menu-button]:p-1.5!">
-        <DropletIcon className="size-5!" /><span className="text-base font-semibold">Plant Pulse</span>
+        <DropletIcon className="size-5!" /><span className="text-base font-semibold">PlantPulse</span>
       </SidebarMenuButton>
     </SidebarMenuItem></SidebarMenu></SidebarHeader>
     <SidebarContent><NavMain active={active} onNavigate={navigate} items={pages.map(page => { const Icon = icons[page.id]; return { ...page, icon: <Icon /> } })} /></SidebarContent>

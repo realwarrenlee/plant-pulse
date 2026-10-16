@@ -28,7 +28,7 @@ Check the readings, production and loading, then compare operating, maintenance 
 
 ## 7. How much energy, water or chemicals have you saved?
 
-No savings caused by Plant Pulse have been measured. Historical consumption changes do not establish its impact. A pilot needs a suitable comparison and treatment-quality safeguards. Chemical records are too sparse and insufficiently defined for reliable dosing comparisons, and site quality acceptance limits are missing.
+No savings caused by PlantPulse have been measured. Historical consumption changes do not establish its impact. A pilot needs a suitable comparison and treatment-quality safeguards. Chemical records are too sparse and insufficiently defined for reliable dosing comparisons, and site quality acceptance limits are missing.
 
 ## 8. What would you need to use this at a real plant?
 

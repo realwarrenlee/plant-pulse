@@ -32,7 +32,7 @@ No actionable P0/P1/P2 findings remain.
 1. Initial implementation used the earlier navy mockup and sheets. User superseded that direction: reinstalled dashboard-01, retained its default neutral/inset layout, and moved all three analysis sections to pages.
 2. CUSUM axis labels initially exposed floating-point tails. Fixed explicit ticks and number formatting; subsequent Energy review capture shows clean 0/1/2/3 and 0/4/8/12 ticks.
 3. User requested removing the header separator. Removed it from the shared header, adjusted the gap and captured the revised header and overview. The final combined source/implementation comparison found no remaining actionable issues within the requested adaptations.
-4. User requested keeping the views under `/`. Replaced route links with in-page sidebar buttons, updated the shortcut and documentation, and verified all four view headings and unchanged URLs on desktop and mobile. No layout changes. Brand now reads Plant Pulse with the installed Lucide droplet icon.
+4. User requested keeping the views under `/`. Replaced route links with in-page sidebar buttons, updated the shortcut and documentation, and verified all four view headings and unchanged URLs on desktop and mobile. No layout changes. Brand now reads PlantPulse with the installed Lucide droplet icon.
 
 ## Verification
 

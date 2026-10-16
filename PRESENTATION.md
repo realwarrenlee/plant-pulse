@@ -1,10 +1,10 @@
-# Plant Pulse presentation script
+# PlantPulse presentation script
 
 Audience: BlueNexus team. Team slot: 10 minutes, including questions.
 
 Target: **eight minutes of presentation and approximately two minutes for questions**. This script follows the live deck inspected on 16 October 2026. It tells one continuous story: available data, a Plant A investigation in the dashboard, a brief Plant B view, comparison coverage, the monitoring method, observed results, constructed tests and the proposed pilot.
 
-Deck: [Plant Pulse](https://docs.google.com/presentation/d/1mwT12h-GhOn_o8MrpagHtgtZePwIYAiui1KtRn6dsW0/edit).
+Deck: [PlantPulse](https://docs.google.com/presentation/d/1mwT12h-GhOn_o8MrpagHtgtZePwIYAiui1KtRn6dsW0/edit).
 
 ## Slide handling
 
@@ -14,7 +14,7 @@ Deck: [Plant Pulse](https://docs.google.com/presentation/d/1mwT12h-GhOn_o8MrpagH
 - Dashboard slides still share the visible title “Dashboard.” The descriptive labels below identify the screenshot stage, rather than claim those slide titles have already changed.
 - Main-slide notes use short bullet-point prompts. Bold text highlights key numbers and actions. Expand the cues naturally; use the [Q&A](QNA.md) for technical backup.
 
-### Slide 1 — Plant Pulse
+### Slide 1 — PlantPulse
 
 **0:00–0:20 · 20 seconds.** Establish the purpose, then move to the data.
 

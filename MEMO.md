@@ -1,10 +1,10 @@
-# Plant Pulse: Water Treatment Monitoring and Early Warnings
+# PlantPulse: Water Treatment Monitoring and Early Warnings
 
 ## 1. What we built
 
-We built Plant Pulse, a prototype dashboard that helps water-treatment operators review unusual equipment readings and possible excess electricity use.
+We built PlantPulse, a prototype dashboard that helps water-treatment operators review unusual equipment readings and possible excess electricity use.
 
-Plant Pulse brings historical trends, energy comparisons and data-quality findings into one place. It shows which plant and dates need review, with the readings behind each finding. Operators can use this evidence to decide what to investigate.
+PlantPulse brings historical trends, energy comparisons and data-quality findings into one place. It shows which plant and dates need review, with the readings behind each finding. Operators can use this evidence to decide what to investigate.
 
 The prototype includes a reproducible data-cleaning and analysis workflow, a statistical energy monitor, and a dashboard with Overview, Historical trends, Energy review and Data quality views.
 
@@ -14,9 +14,9 @@ We analysed two anonymised plants. Each plant has 244 days of equipment readings
 
 We converted blank, `NULL` and `/` markers to missing values. We checked dates, repeated readings, constant fields and equipment-counter decreases. Missing readings remain missing rather than becoming zero. The original files are preserved.
 
-For energy monitoring, Plant Pulse estimates expected daily electricity from the amount of treated water produced. Each plant has its own July reference: total electricity divided by total treated-water volume. Multiplying this reference by today's water output gives expected electricity.
+For energy monitoring, PlantPulse estimates expected daily electricity from the amount of treated water produced. Each plant has its own July reference: total electricity divided by total treated-water volume. Multiplying this reference by today's water output gives expected electricity.
 
-Plant Pulse compares recorded electricity with the estimate. A cumulative sum method, called CUSUM, accumulates evidence of electricity use above the reference. When the accumulated evidence exceeds a provisional limit, the system requests investigation. Missing, invalid or out-of-range inputs have an unavailable comparison and reset the accumulated evidence.
+PlantPulse compares recorded electricity with the estimate. A cumulative sum method, called CUSUM, accumulates evidence of electricity use above the reference. When the accumulated evidence exceeds a provisional limit, the system requests investigation. Missing, invalid or out-of-range inputs have an unavailable comparison and reset the accumulated evidence.
 
 We compared this method with regression, which fits a relationship between production and electricity. July checks fitted each model using earlier dates and tested it on later dates. Regression had lower pooled July prediction error for both plants. We selected the simpler reference for transparency, rather than claiming it was the most accurate model.
 

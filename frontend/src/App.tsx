@@ -21,7 +21,7 @@ export default function App() {
     if (window.location.pathname !== '/') window.history.replaceState(null, '', '/')
   }, [])
   useEffect(() => {
-    document.title = `${page.title} · Plant Pulse`
+    document.title = `${page.title} · PlantPulse`
     window.scrollTo(0, 0)
   }, [page])
   function openPlant(next: 'Plant A' | 'Plant B') {

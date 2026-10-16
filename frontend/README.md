@@ -1,4 +1,4 @@
-# Plant Pulse dashboard
+# PlantPulse dashboard
 
 React dashboard built from shadcn `dashboard-01`, with its inset sidebar, card grid, chart area and table. Historical trends, Energy review and Data quality are full content views within the same page; only individual plant readings open in a sheet.
 
