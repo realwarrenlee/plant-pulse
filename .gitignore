@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.parquet
+.venv/
+.idea/
+.env
+.ipynb_checkpoints/
+.DS_Store
+tmp/
+output/
+docs/
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+.playwright-cli/
+.playwright/

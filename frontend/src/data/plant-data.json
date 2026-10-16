@@ -1,0 +1,1036 @@
+{
+  "plants": [
+    {
+      "name": "Plant A",
+      "readings": [
+        {
+          "date": "2026-08-01",
+          "actual": 4847.0,
+          "output": 5172.0,
+          "expected": 6031.960404335043,
+          "excess": -1184.9604043350428,
+          "eligible": true,
+          "score": -1.6056326544619737,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-02",
+          "actual": 4797.0,
+          "output": 4002.0,
+          "expected": 4667.421797785932,
+          "excess": 129.57820221406837,
+          "eligible": true,
+          "score": 0.17557970040200457,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-03",
+          "actual": 4299.0,
+          "output": 5170.0,
+          "expected": 6029.627859708463,
+          "excess": -1730.627859708463,
+          "eligible": true,
+          "score": -2.3450172631117407,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-04",
+          "actual": 4952.0,
+          "output": 5164.0,
+          "expected": 6022.630225828723,
+          "excess": -1070.6302258287233,
+          "eligible": true,
+          "score": -1.450714171676697,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-05",
+          "actual": 3062.0,
+          "output": 1797.0,
+          "expected": null,
+          "excess": null,
+          "eligible": false,
+          "score": null,
+          "cusum": null,
+          "review": false,
+          "reason": "Outside reference output range"
+        },
+        {
+          "date": "2026-08-06",
+          "actual": 2854.0,
+          "output": 3330.0,
+          "expected": 3883.6868032551606,
+          "excess": -1029.6868032551606,
+          "eligible": true,
+          "score": -1.3952354434178917,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-07",
+          "actual": 4749.0,
+          "output": 4780.0,
+          "expected": 5574.7816575254255,
+          "excess": -825.7816575254255,
+          "eligible": true,
+          "score": -1.118942025343544,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-08",
+          "actual": 3449.0,
+          "output": 2341.0,
+          "expected": null,
+          "excess": null,
+          "eligible": false,
+          "score": null,
+          "cusum": null,
+          "review": false,
+          "reason": "Outside reference output range"
+        },
+        {
+          "date": "2026-08-09",
+          "actual": 2911.0,
+          "output": 3298.0,
+          "expected": 3846.366089229886,
+          "excess": -935.3660892298858,
+          "eligible": true,
+          "score": -1.267429975929604,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-10",
+          "actual": 3590.0,
+          "output": 3555.0,
+          "expected": 4146.098073745375,
+          "excess": -556.0980737453747,
+          "eligible": true,
+          "score": -0.7535181960700482,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-11",
+          "actual": 2243.0,
+          "output": 1403.0,
+          "expected": null,
+          "excess": null,
+          "eligible": false,
+          "score": null,
+          "cusum": null,
+          "review": false,
+          "reason": "Outside reference output range"
+        },
+        {
+          "date": "2026-08-12",
+          "actual": 2317.0,
+          "output": 2731.0,
+          "expected": 3185.0896875945477,
+          "excess": -868.0896875945477,
+          "eligible": true,
+          "score": -1.1762698097795667,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-13",
+          "actual": 2701.0,
+          "output": 1531.0,
+          "expected": null,
+          "excess": null,
+          "eligible": false,
+          "score": null,
+          "cusum": null,
+          "review": false,
+          "reason": "Outside reference output range"
+        },
+        {
+          "date": "2026-08-14",
+          "actual": 3359.0,
+          "output": 3150.0,
+          "expected": 3673.7577868629896,
+          "excess": -314.75778686298963,
+          "eligible": true,
+          "score": -0.42649980453735276,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-15",
+          "actual": 4165.0,
+          "output": 3208.0,
+          "expected": 3741.4015810338005,
+          "excess": 423.59841896619946,
+          "eligible": true,
+          "score": 0.5739798995665735,
+          "cusum": 0.32397989956657347,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-16",
+          "actual": 4651.0,
+          "output": 4552.0,
+          "expected": 5308.871570095343,
+          "excess": -657.8715700953426,
+          "eligible": true,
+          "score": -0.8914222547208309,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-17",
+          "actual": 4610.0,
+          "output": 4272.0,
+          "expected": 4982.315322374188,
+          "excess": -372.3153223741883,
+          "eligible": true,
+          "score": -0.5044908143542554,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-18",
+          "actual": 4636.0,
+          "output": 4554.0,
+          "expected": 5311.204114721922,
+          "excess": -675.2041147219225,
+          "eligible": true,
+          "score": -0.9149080180725381,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-19",
+          "actual": 4239.0,
+          "output": 3490.0,
+          "expected": 4070.2903733815347,
+          "excess": 168.70962661846534,
+          "eligible": true,
+          "score": 0.22860315385196883,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-20",
+          "actual": 4181.0,
+          "output": 4697.0,
+          "expected": 5477.981055522369,
+          "excess": -1296.9810555223694,
+          "eligible": true,
+          "score": -1.7574217056930985,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-21",
+          "actual": 4846.0,
+          "output": 4597.0,
+          "expected": 5361.353824193386,
+          "excess": -515.3538241933857,
+          "eligible": true,
+          "score": -0.6983093491559332,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-22",
+          "actual": 4853.0,
+          "output": 4160.0,
+          "expected": 4851.692823285726,
+          "excess": 1.3071767142737372,
+          "eligible": true,
+          "score": 0.0017712369205855603,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-23",
+          "actual": 4708.0,
+          "output": 4009.0,
+          "expected": 4675.585703978961,
+          "excess": 32.41429602103926,
+          "eligible": true,
+          "score": 0.04392168039739987,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-24",
+          "actual": 5088.0,
+          "output": 4472.0,
+          "expected": 5215.569785032156,
+          "excess": -127.56978503215578,
+          "eligible": true,
+          "score": -0.17285827595671183,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-25",
+          "actual": 4659.0,
+          "output": 4439.0,
+          "expected": 5177.082798693591,
+          "excess": -518.082798693591,
+          "eligible": true,
+          "score": -0.7020071356428856,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-26",
+          "actual": 4949.0,
+          "output": 4253.0,
+          "expected": 4960.156148421681,
+          "excess": -11.156148421680882,
+          "eligible": true,
+          "score": -0.015116687560481975,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-27",
+          "actual": 4018.0,
+          "output": 3592.0,
+          "expected": 4189.250149337098,
+          "excess": -171.25014933709826,
+          "eligible": true,
+          "score": -0.23204558637673206,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-28",
+          "actual": 4309.0,
+          "output": 4774.0,
+          "expected": 5567.784023645687,
+          "excess": -1258.7840236456868,
+          "eligible": true,
+          "score": -1.705664363033921,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-29",
+          "actual": 4080.0,
+          "output": 2617.0,
+          "expected": 3052.1346438795063,
+          "excess": 1027.8653561204937,
+          "eligible": true,
+          "score": 1.3927673651706372,
+          "cusum": 1.1427673651706372,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-30",
+          "actual": 4439.0,
+          "output": 3864.0,
+          "expected": 4506.476218551934,
+          "excess": -67.47621855193393,
+          "eligible": true,
+          "score": -0.09143091997862629,
+          "cusum": 0.8013364451920109,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-31",
+          "actual": 3660.0,
+          "output": 1881.0,
+          "expected": null,
+          "excess": null,
+          "eligible": false,
+          "score": null,
+          "cusum": null,
+          "review": false,
+          "reason": "Outside reference output range"
+        }
+      ],
+      "reference": {
+        "specificEnergy": 1.166272313289838,
+        "scale": 738.002183153224,
+        "allowance": 0.25,
+        "limit": 3.0,
+        "outputMin": 2589.0,
+        "outputMax": 5443.0
+      },
+      "months": [
+        {
+          "month": "2026-07",
+          "electricity": 150336.0,
+          "output": 128903.0,
+          "specificEnergy": 1.166272313289838
+        },
+        {
+          "month": "2026-08",
+          "electricity": 126221.0,
+          "output": 114855.0,
+          "specificEnergy": 1.098959557703191
+        }
+      ]
+    },
+    {
+      "name": "Plant B",
+      "readings": [
+        {
+          "date": "2026-08-01",
+          "actual": 19220.0,
+          "output": 17666.0,
+          "expected": 19053.567424085482,
+          "excess": 166.43257591451766,
+          "eligible": true,
+          "score": 0.43624349818456615,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-02",
+          "actual": 19550.0,
+          "output": 18172.0,
+          "expected": 19599.310949308354,
+          "excess": -49.310949308353884,
+          "eligible": true,
+          "score": -0.12925102496837393,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-03",
+          "actual": 19994.0,
+          "output": 18290.0,
+          "expected": 19726.579202225937,
+          "excess": 267.4207977740625,
+          "eligible": true,
+          "score": 0.7009480185428552,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-04",
+          "actual": 20436.0,
+          "output": 18720.0,
+          "expected": 20190.353344213756,
+          "excess": 245.64665578624408,
+          "eligible": true,
+          "score": 0.6438748895683202,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-05",
+          "actual": 20975.0,
+          "output": 19606.0,
+          "expected": 21145.943785611908,
+          "excess": -170.94378561190751,
+          "eligible": true,
+          "score": -0.4480680216507191,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-06",
+          "actual": 21165.0,
+          "output": 20012.0,
+          "expected": 21583.832859209706,
+          "excess": -418.83285920970593,
+          "eligible": true,
+          "score": -1.0978206078486117,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-07",
+          "actual": 12065.0,
+          "output": 12772.0,
+          "expected": null,
+          "excess": null,
+          "eligible": false,
+          "score": null,
+          "cusum": null,
+          "review": false,
+          "reason": "Outside reference output range"
+        },
+        {
+          "date": "2026-08-08",
+          "actual": 17264.0,
+          "output": 16946.0,
+          "expected": 18277.01537238495,
+          "excess": -1013.0153723849508,
+          "eligible": true,
+          "score": -2.6552576461409183,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-09",
+          "actual": 18161.0,
+          "output": 18144.0,
+          "expected": 19569.111702853334,
+          "excess": -1408.1117028533336,
+          "eligible": true,
+          "score": -3.6908614296931153,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-10",
+          "actual": 19605.0,
+          "output": 19092.0,
+          "expected": 20591.571904259028,
+          "excess": -986.5719042590281,
+          "eligible": true,
+          "score": -2.5859455479774582,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-11",
+          "actual": 20655.0,
+          "output": 20092.0,
+          "expected": 21670.116420509763,
+          "excess": -1015.116420509763,
+          "eligible": true,
+          "score": -2.6607647926762996,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-12",
+          "actual": 19970.0,
+          "output": 20073.0,
+          "expected": 21649.624074700998,
+          "excess": -1679.6240747009979,
+          "eligible": true,
+          "score": -4.402534046933921,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-13",
+          "actual": 18820.0,
+          "output": 18815.0,
+          "expected": 20292.815073257574,
+          "excess": -1472.815073257574,
+          "eligible": true,
+          "score": -3.860458183780339,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-14",
+          "actual": 20230.0,
+          "output": 19686.0,
+          "expected": 21232.227346911965,
+          "excess": -1002.2273469119646,
+          "eligible": true,
+          "score": -2.6269806940780187,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-15",
+          "actual": 19585.0,
+          "output": 18193.0,
+          "expected": 19621.960384149617,
+          "excess": -36.96038414961731,
+          "eligible": true,
+          "score": -0.09687843372655508,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-16",
+          "actual": 18770.0,
+          "output": 19541.0,
+          "expected": 21075.838392055608,
+          "excess": -2305.838392055608,
+          "eligible": true,
+          "score": -6.043931008526017,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-17",
+          "actual": 19980.0,
+          "output": 19331.0,
+          "expected": 20849.344043642956,
+          "excess": -869.3440436429555,
+          "eligible": true,
+          "score": -2.278674620282904,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-18",
+          "actual": 18095.0,
+          "output": 17169.0,
+          "expected": 18517.530799508866,
+          "excess": -422.53079950886604,
+          "eligible": true,
+          "score": -1.1075134363307706,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-19",
+          "actual": 19105.0,
+          "output": 17907.0,
+          "expected": 19313.496652501908,
+          "excess": -208.4966525019081,
+          "eligible": true,
+          "score": -0.5464994370688604,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-20",
+          "actual": 20145.0,
+          "output": 20035.0,
+          "expected": 21608.63938308347,
+          "excess": -1463.6393830834713,
+          "eligible": true,
+          "score": -3.836407392294276,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-21",
+          "actual": 17795.0,
+          "output": 16125.0,
+          "expected": 17391.5303245431,
+          "excess": 403.4696754569013,
+          "eligible": true,
+          "score": 1.057551513972314,
+          "cusum": 0.05755151397231395,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-22",
+          "actual": 18650.0,
+          "output": 18182.0,
+          "expected": 19610.09639447086,
+          "excess": -960.0963944708601,
+          "eligible": true,
+          "score": -2.5165494640513026,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-23",
+          "actual": 17165.0,
+          "output": 16802.0,
+          "expected": 18121.704962044845,
+          "excess": -956.7049620448452,
+          "eligible": true,
+          "score": -2.507660036382159,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-24",
+          "actual": 16950.0,
+          "output": 16229.0,
+          "expected": 17503.698954233176,
+          "excess": -553.6989542331758,
+          "eligible": true,
+          "score": -1.4513238613808341,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-25",
+          "actual": 17875.0,
+          "output": 16896.0,
+          "expected": 18223.088146572416,
+          "excess": -348.088146572416,
+          "eligible": true,
+          "score": -0.9123886348747368,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-26",
+          "actual": 18125.0,
+          "output": 17178.0,
+          "expected": 18527.23770015512,
+          "excess": -402.2377001551213,
+          "eligible": true,
+          "score": -1.0543223311493457,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-27",
+          "actual": 18720.0,
+          "output": 17217.0,
+          "expected": 18569.3009362889,
+          "excess": 150.6990637111012,
+          "eligible": true,
+          "score": 0.3950037206672535,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-28",
+          "actual": 19925.0,
+          "output": 18292.0,
+          "expected": 19728.73629125844,
+          "excess": 196.26370874156055,
+          "eligible": true,
+          "score": 0.5144351482733183,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-29",
+          "actual": 20300.0,
+          "output": 18653.0,
+          "expected": 20118.090861624954,
+          "excess": 181.9091383750456,
+          "eligible": true,
+          "score": 0.4768097738103207,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-30",
+          "actual": 19680.0,
+          "output": 18342.0,
+          "expected": 19782.663517070978,
+          "excess": -102.66351707097783,
+          "eligible": true,
+          "score": -0.26909570783773257,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        },
+        {
+          "date": "2026-08-31",
+          "actual": 20041.0,
+          "output": 19056.0,
+          "expected": 20552.744301674004,
+          "excess": -511.7443016740035,
+          "eligible": true,
+          "score": -1.3413547384674702,
+          "cusum": 0.0,
+          "review": false,
+          "reason": ""
+        }
+      ],
+      "reference": {
+        "specificEnergy": 1.0785445162507348,
+        "scale": 381.5130233622491,
+        "allowance": 1.0,
+        "limit": 12.0,
+        "outputMin": 15591.0,
+        "outputMax": 20808.0
+      },
+      "months": [
+        {
+          "month": "2026-07",
+          "electricity": 640361.0,
+          "output": 593727.0,
+          "specificEnergy": 1.0785445162507348
+        },
+        {
+          "month": "2026-08",
+          "electricity": 589016.0,
+          "output": 563234.0,
+          "specificEnergy": 1.0457749354619927
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "plant": "Plant A",
+      "date": "2026-07-01",
+      "indicator": "Specific energy",
+      "unit": "kWh/m³",
+      "value": 1.645809192738509,
+      "direction": "Above"
+    },
+    {
+      "plant": "Plant A",
+      "date": "2026-07-03",
+      "indicator": "pH",
+      "unit": "",
+      "value": 7.25,
+      "direction": "Above"
+    },
+    {
+      "plant": "Plant A",
+      "date": "2026-07-27",
+      "indicator": "Conductivity",
+      "unit": "µS/cm",
+      "value": 282.0,
+      "direction": "Above"
+    },
+    {
+      "plant": "Plant A",
+      "date": "2026-08-03",
+      "indicator": "pH",
+      "unit": "",
+      "value": 7.25,
+      "direction": "Above"
+    },
+    {
+      "plant": "Plant A",
+      "date": "2026-08-05",
+      "indicator": "Specific energy",
+      "unit": "kWh/m³",
+      "value": 1.7039510294936004,
+      "direction": "Above"
+    },
+    {
+      "plant": "Plant A",
+      "date": "2026-08-13",
+      "indicator": "Specific energy",
+      "unit": "kWh/m³",
+      "value": 1.7642064010450687,
+      "direction": "Above"
+    },
+    {
+      "plant": "Plant A",
+      "date": "2026-08-31",
+      "indicator": "Specific energy",
+      "unit": "kWh/m³",
+      "value": 1.9457735247208932,
+      "direction": "Above"
+    },
+    {
+      "plant": "Plant B",
+      "date": "2026-07-15",
+      "indicator": "Recovery",
+      "unit": "%",
+      "value": 87.50639386189258,
+      "direction": "Above"
+    },
+    {
+      "plant": "Plant B",
+      "date": "2026-07-15",
+      "indicator": "Specific energy",
+      "unit": "kWh/m³",
+      "value": 0.9525549223050319,
+      "direction": "Below"
+    },
+    {
+      "plant": "Plant B",
+      "date": "2026-07-15",
+      "indicator": "Conductivity",
+      "unit": "µS/cm",
+      "value": 183.0,
+      "direction": "Above"
+    },
+    {
+      "plant": "Plant B",
+      "date": "2026-07-16",
+      "indicator": "Recovery",
+      "unit": "%",
+      "value": 63.075491544623354,
+      "direction": "Below"
+    },
+    {
+      "plant": "Plant B",
+      "date": "2026-07-16",
+      "indicator": "Specific energy",
+      "unit": "kWh/m³",
+      "value": 1.3077416458213071,
+      "direction": "Above"
+    },
+    {
+      "plant": "Plant B",
+      "date": "2026-08-07",
+      "indicator": "Specific energy",
+      "unit": "kWh/m³",
+      "value": 0.9446445349201378,
+      "direction": "Below"
+    },
+    {
+      "plant": "Plant B",
+      "date": "2026-08-19",
+      "indicator": "pH",
+      "unit": "",
+      "value": 8.8,
+      "direction": "Above"
+    },
+    {
+      "plant": "Plant B",
+      "date": "2026-08-26",
+      "indicator": "pH",
+      "unit": "",
+      "value": 8.5,
+      "direction": "Above"
+    }
+  ],
+  "quality": {
+    "missingConductivity": [
+      {
+        "plant": "Plant A",
+        "date": "2026-07-01"
+      },
+      {
+        "plant": "Plant A",
+        "date": "2026-08-06"
+      },
+      {
+        "plant": "Plant A",
+        "date": "2026-08-09"
+      },
+      {
+        "plant": "Plant A",
+        "date": "2026-08-15"
+      },
+      {
+        "plant": "Plant A",
+        "date": "2026-08-27"
+      },
+      {
+        "plant": "Plant A",
+        "date": "2026-08-29"
+      },
+      {
+        "plant": "Plant A",
+        "date": "2026-08-30"
+      },
+      {
+        "plant": "Plant A",
+        "date": "2026-08-31"
+      }
+    ],
+    "recoveryDifferences": [
+      {
+        "plant": "Plant B",
+        "date": "2026-07-28",
+        "reported": 75.0,
+        "calculated": 75.63974742439349
+      },
+      {
+        "plant": "Plant B",
+        "date": "2026-07-29",
+        "reported": 75.0,
+        "calculated": 76.04598791039469
+      },
+      {
+        "plant": "Plant B",
+        "date": "2026-07-30",
+        "reported": 75.0,
+        "calculated": 74.9486146509907
+      },
+      {
+        "plant": "Plant B",
+        "date": "2026-07-31",
+        "reported": 75.0,
+        "calculated": 74.5455263989883
+      },
+      {
+        "plant": "Plant B",
+        "date": "2026-08-28",
+        "reported": 75.0,
+        "calculated": 73.05403570430128
+      },
+      {
+        "plant": "Plant B",
+        "date": "2026-08-29",
+        "reported": 75.0,
+        "calculated": 73.96994091287624
+      },
+      {
+        "plant": "Plant B",
+        "date": "2026-08-30",
+        "reported": 75.0,
+        "calculated": 74.91422970102924
+      },
+      {
+        "plant": "Plant B",
+        "date": "2026-08-31",
+        "reported": 75.0,
+        "calculated": 76.11135519431242
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "output/detection/energy_replay.csv",
+      "sha256": "ff36e320790837b2cd82619d77abef2b88dca81b041d22d67a51f8bbfc415d07"
+    },
+    {
+      "path": "output/detection/energy_models.csv",
+      "sha256": "99f3005b045d92842e1aace5436bc2911747ed2428b68fa91dd1b4e91aad9475"
+    },
+    {
+      "path": "output/historical/plant_months.csv",
+      "sha256": "38ce2db75926c68d8e35329265f843be6ef898ef7676a63e24bdf9ff24e75da1"
+    },
+    {
+      "path": "output/historical/unusual_plant_readings.csv",
+      "sha256": "c7d30790c3b5833598d24b176a158369bacb04549e4b5d6789187d81b8dc9a4e"
+    },
+    {
+      "path": "output/historical/recovery_reconciliation.csv",
+      "sha256": "79f5547c38e53d5ab00fbafced54ab2ce4da5a98a5d9a652b3e41dd67f3497c7"
+    },
+    {
+      "path": "Dataset/plant_daily_performance.csv",
+      "sha256": "f2204d5fbc6203d6701bd3feaa7467f59857abf9b3eb9b216f0bdeaa5bf03130"
+    }
+  ]
+}

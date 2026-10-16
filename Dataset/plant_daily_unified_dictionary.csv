@@ -1,0 +1,23 @@
+column,purpose,source_mapping,reported_unit,notes
+plant,Daily key,Plant A; Plant B: plant,text,Plant A or Plant B; equipment plant comes from the source filename
+date,Daily key,Plant A; Plant B: date,YYYY-MM-DD,Normalized ISO date; join together with plant
+pump1_frequency,Pump reading; provisional meaning and units,Plant A: 1_rohigh_pressure_pump_frequency_feedback_o; Plant B: c_m_ro1_high_pressure_pump_fre_out,Unconfirmed,Retained original data including null markers and anomalous records
+pump1_power_reading,Pump reading; provisional meaning and units,Plant A: zz_1_rohigh_pressure_pump_power,Unconfirmed,Retained original data including null markers and anomalous records
+pump1_a_out,Pump reading; provisional meaning and units,Plant B: c_m_ro1_high_pressure_pump_a_out,Unconfirmed,Retained original data including null markers and anomalous records
+pump1_runtime_counter,Pump reading; provisional meaning and units,Plant A: p_1_rohigh_pressure_pump_runtime_cumulative; Plant B: c_m_ro1_high_pressure_pump_runtime_cumulative,Unconfirmed,Retained original data including null markers and anomalous records
+pump2_frequency,Pump reading; provisional meaning and units,Plant A: 2_rohigh_pressure_pump_frequency_feedback_o; Plant B: c_m_ro2_high_pressure_pump_fre_out,Unconfirmed,Retained original data including null markers and anomalous records
+pump2_power_reading,Pump reading; provisional meaning and units,Plant A: zz_2_rohigh_pressure_pump_power,Unconfirmed,Retained original data including null markers and anomalous records
+pump2_a_out,Pump reading; provisional meaning and units,Plant B: c_m_ro2_high_pressure_pump_a_out,Unconfirmed,Retained original data including null markers and anomalous records
+pump2_runtime_counter,Pump reading; provisional meaning and units,Plant A: p_2_rohigh_pressure_pump_runtime_cumulative; Plant B: c_m_ro2_high_pressure_pump_runtime_cumulative,Unconfirmed,Retained original data including null markers and anomalous records
+pump3_frequency,Pump reading; provisional meaning and units,Plant B: c_m_ro3_high_pressure_pump_fre_out,Unconfirmed,Retained original data including null markers and anomalous records
+pump3_a_out,Pump reading; provisional meaning and units,Plant B: c_m_ro3_high_pressure_pump_a_out,Unconfirmed,Retained original data including null markers and anomalous records
+pump3_runtime_counter,Pump reading; provisional meaning and units,Plant B: c_m_ro3_high_pressure_pump_runtime_cumulative,Unconfirmed,Retained original data including null markers and anomalous records
+pump4_frequency,Pump reading; provisional meaning and units,Plant B: c_m_ro4_high_pressure_pump_fre_out,Unconfirmed,Retained original data including null markers and anomalous records
+pump4_a_out,Pump reading; provisional meaning and units,Plant B: c_m_ro4_high_pressure_pump_a_out,Unconfirmed,Retained original data including null markers and anomalous records
+pump4_runtime_counter,Pump reading; provisional meaning and units,Plant B: c_m_ro4_high_pressure_pump_runtime_cumulative,Unconfirmed,Retained original data including null markers and anomalous records
+daily_electricity_kwh,Daily plant context,Plant A; Plant B: daily_electricity_kwh,kW·h,Percent/rate fields retained as original Excel numeric fractions where applicable
+effluent_volume_m3,Daily plant context,Plant A; Plant B: effluent_volume_m3,m³,Percent/rate fields retained as original Excel numeric fractions where applicable
+reported_specific_energy_kwh_m3,Daily plant context,Plant A; Plant B: reported_specific_energy_kwh_m3,kW·h/m³,Percent/rate fields retained as original Excel numeric fractions where applicable
+reported_recovery_rate,Daily plant context,Plant A; Plant B: reported_recovery_rate,%,Percent/rate fields retained as original Excel numeric fractions where applicable
+effluent_ph,Daily plant context,Plant A; Plant B: effluent_ph,-,Percent/rate fields retained as original Excel numeric fractions where applicable
+effluent_conductivity_us_cm,Daily plant context,Plant A; Plant B: effluent_conductivity_us_cm,us/cm,Percent/rate fields retained as original Excel numeric fractions where applicable
