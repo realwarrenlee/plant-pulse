@@ -1,141 +1,107 @@
 # PlantPulse presentation script
 
-Audience: BlueNexus team. Team slot: 10 minutes, including questions.
+Read the paragraphs aloud. Each section follows one slide in the current 15-slide deck. The headings are navigation cues, not spoken text.
 
-Target: **eight minutes of presentation and approximately two minutes for questions**. This script follows the live deck inspected on 16 October 2026. It tells one continuous story: available data, a Plant A investigation in the dashboard, a brief Plant B view, comparison coverage, the monitoring method, observed results, constructed tests and the proposed pilot.
+## PlantPulse
 
-Deck: [PlantPulse](https://docs.google.com/presentation/d/1mwT12h-GhOn_o8MrpagHtgtZePwIYAiui1KtRn6dsW0/edit).
+PlantPulse is a prototype to help operators investigate unusual plant readings.
 
-## Slide handling
+When a reading stands out, the next question is: what was happening at the plant, and what should we check first?
 
-- **Slides 6–7 are one Plant A walkthrough.** Begin with the top of the readings panel, then advance to its lower portion while continuing the same explanation. Do not restart the story or read every daily value.
-- **Slides 8–9 are one brief Plant B walkthrough.** Show that the same reading/comparison layout works for Plant B. Advance through both screenshots in about 15 seconds; no second case study is needed.
-- **Current slide 13 is superseded.** The live deck still contains the older mixed observed-history/constructed-warning layout. Skip it during delivery. Current slides 14 and 15 are the replacement constructed example and simulation summary. This document uses the current physical slide numbers; if the older slide is removed, the final three numbers shift down by one.
-- Dashboard slides still share the visible title “Dashboard.” The descriptive labels below identify the screenshot stage, rather than claim those slide titles have already changed.
-- Main-slide notes use short bullet-point prompts. Bold text highlights key numbers and actions. Expand the cues naturally; use the [Q&A](QNA.md) for technical backup.
+I’ve brought the historical readings and a simple monitoring approach into one dashboard.
 
-### Slide 1 — PlantPulse
+Today, I’ll use electricity and water production to show how that helps an operator investigate.
 
-**0:00–0:20 · 20 seconds.** Establish the purpose, then move to the data.
+## Equipment data quality shaped my approach
 
-- Purpose: help water-treatment operators investigate unusual operation.
-- Built: equipment/performance analysis, statistical electricity monitor and dashboard.
-- Story: one investigation, how monitoring works, and what testing shows.
+I started by checking the data. Each plant has 244 days of equipment readings, from January to September. But the supporting plant-performance data covers only 62 days, in July and August.
 
-### Slide 2 — Equipment data quality shaped my approach
+I found 21 records that repeat the previous record in Plant A, and 10 in Plant B. Two Plant A runtime counters stay flat for 183 days.
 
-**0:20–1:05 · 45 seconds.** Point to coverage, repeated records and runtime counters.
+We still need to confirm what some equipment readings mean and which pumps they belong to. So I focused on monitoring total plant electricity and water production. Pump diagnosis needs those details confirmed first.
 
-- History per plant: **244 equipment days**; **62 performance days**, July–August.
-- Findings: **21 repeated records in A / 10 in B**; **183-day flat periods** in both A runtime counters. Verify against source records.
-- Cleaning: preserve originals; keep missing values missing.
-- Scope: equipment meanings remain uncertain; selected monitor uses clearer **plant-level electricity and output**.
-- **Next:** show how an operator inspects the results.
+## Dashboard: Overview
 
-### Slide 3 — Dashboard: Overview
+These screenshots walk through the dashboard. The overview brings electricity and water production together, with daily charts, plant totals, and the number of days the monitor can assess.
 
-**1:05–1:30 · 25 seconds.** Point to summaries and actual-versus-expected plots.
+## Dashboard: Historical context
 
-- Electricity, treated-water output, plant summaries and review counts together.
-- Plots: actual electricity against an estimate adjusted for production.
-- Saved analysis results; no live sensor connection.
-- **Next:** follow a specific Plant A investigation.
+This view highlights unusual readings in each plant’s July and August history. Plant A’s specific energy stands out on 31 August. Specific energy means the electricity used per cubic metre of treated water.
 
-### Slide 4 — Dashboard: Historical context
+## High energy per cubic metre needs production context
 
-**1:30–2:00 · 30 seconds.** Point to Plant A’s 31 August row; pause for the audience to locate it.
+That day, Plant A used 3,660 kilowatt-hours to produce 1,881 cubic metres of water. That works out to about 1.946 kilowatt-hours per cubic metre.
 
-- Historical screen: readings outside each plant’s retrospective comparison ranges.
-- Case: **Plant A, 31 August**, unusually high specific energy.
-- A date to investigate; statistical unusualness alone does not establish a fault.
-- **Next:** inspect electricity and production together.
+Low water production contributed to that high ratio. Looking at electricity and production together gives us more context than the ratio alone.
 
-### Slide 5 — High energy per cubic metre needs production context
+I’d check the production schedule, operating hours and meter records before blaming an equipment problem.
 
-**2:00–2:40 · 40 seconds.** Read the three quantities once.
+## Dashboard: Plant A readings
 
-- **3,660 kWh / 1,881 m³ = 1.946 kWh/m³.**
-- Electricity below the plant’s daily median; production also low.
-- High ratio does not establish increased equipment consumption.
-- Suggested checks: production schedule, operating hours and meter records before assigning a cause.
-- **Next:** open Plant A’s underlying readings.
+Plant A’s table shows recorded electricity, what the monitor expected, and the difference. Let’s move down to 31 August.
 
-### Slides 6–7 — Dashboard: Plant A readings
+The 3,660 kilowatt-hours is still here. Expected electricity and the difference show dashes because production was outside the July output range. The monitor couldn’t make that comparison. The dashes don’t mean zero consumption.
 
-**2:40–3:25 · 45 seconds for both screenshots together.** One continuous explanation; the slide advance represents scrolling the same panel.
+## Dashboard: Plant B readings
 
-- **Slide 6:** monthly totals and the Actual, Expected and Excess columns.
-- **Advance to slide 7:** point to **31 August — actual 3,660 kWh**.
-- Expected/excess: **unavailable because output is outside the reference range**.
-- Dashes mean an unsupported estimate; they do not establish normal operation. Actual readings remain visible.
-- **Next:** briefly show the same layout for Plant B.
+Plant B uses the same layout, with its own totals and July reference. Its actual electricity readings stay visible even when the comparison is unavailable.
 
-### Slides 8–9 — Dashboard: Plant B readings
+Further down, the same columns let an operator check each day against the estimate. Next, the coverage view brings the unavailable comparisons together.
 
-**3:25–3:40 · 15 seconds for both screenshots together.** No second case study or row-by-row explanation.
+## Dashboard: Comparison coverage
 
-- Same layout for Plant B, with **its own totals and electricity reference**.
-- **Advance from slide 8 to 9:** top and bottom of the same daily-readings panel.
-- **Next:** coverage explains unavailable comparisons.
+The monitor could assess 26 August days for Plant A and 30 for Plant B. All electricity and water-output readings are present, but production was outside the July output range on five days for A and one for B.
 
-### Slide 10 — Dashboard: Comparison coverage
+Plant A’s 1,881 cubic metres on 31 August was below July’s lowest output of 2,589. Actual consumption still counts towards the totals.
 
-**3:40–4:15 · 35 seconds.** Point to coverage counts, then Plant A’s 31 August output.
+Below that are other data checks: missing conductivity readings and differences between reported water recovery and the recovery calculated from the water readings.
 
-- **A: 26/31 dates compared. B: 30/31.** Five A dates and one B date outside the July output range.
-- Electricity and output readings are present; exclusions affect comparisons. Actual consumption stays in totals.
-- **31 August: 1,881 m³**, below A’s **2,589 m³/day** reference minimum.
-- Other visible checks: missing conductivity and recovery discrepancies.
-- **Next:** how the monitor works for comparable operating conditions.
+## How the electricity monitor works
 
-### Slide 11 — How the electricity monitor works
+The three columns show how the monitor works. On the left, July’s total electricity divided by total treated water gives a reference for electricity per cubic metre, separately for each plant.
 
-**4:15–5:05 · 50 seconds.** Follow the method stages. Explain CUSUM as accumulated evidence.
+In the middle, multiplying that reference by today’s water production gives today’s expected electricity use.
 
-- July reference: **total electricity / total treated water**, separately per plant. Expected electricity = reference × today’s output.
-- Compare actual and expected; scale the difference against July variation; accumulate evidence with **CUSUM**.
-- Crossing the provisional limit requests investigation. Missing/unsupported comparisons reset evidence; an isolated spike can also cross.
-- July is historical, with health unverified. Regression had lower pooled July error; simpler reference selected provisionally for transparency.
-- **Next:** actual August monitoring results.
+On the right, CUSUM keeps a running score of excess use, allowing for July’s day-to-day variation. Repeated excesses build the score; readings below expected bring it towards zero. Crossing the limit prompts an operator review. A large isolated spike can trigger one too.
 
-### Slide 12 — Dashboard: Actual August energy review
+The score clears on days it can’t assess and restarts after each review flag.
 
-**5:05–5:40 · 35 seconds.** Point to actual CUSUM lines and dashed thresholds.
+I chose provisional limits in July-based simulations. The aim was to catch a sustained increase equal to ten percent of July’s average daily electricity, with no more than one in ten no-change months triggering any review.
 
-- **Zero crossings** on **26 eligible A dates / 30 eligible B dates**.
-- No crossing does not establish healthy or efficient operation; six unsupported comparisons remain separate.
-- August already inspected: **exploratory replay**, rather than independent detection validation.
-- **Next:** no verified failure labels, so test the response to constructed increases.
+## Dashboard: Actual August energy review
 
-### Slide 13 — Older mixed-chart layout: skip
+The blue lines show the running scores and the dashed lines show the review limits. Neither plant crossed its limit on the August days the monitor could assess: 26 for A and 30 for B.
 
-**No speaking time. Advance directly to slide 14.** Slide 14 replaces the older mixed-chart layout; do not restart the historical explanation.
+I’d already examined August, so this shows its behaviour on historical data.
 
-### Slide 14 — A constructed increase triggers a review
+On days like 31 August, outside the July output range, the historical view still highlights the unusual reading for the operator to investigate.
 
-**5:40–6:25 · 45 seconds.** Point to day 8, the dashed limit and the red triangles.
+## A constructed increase triggers a review
 
-- **One constructed Plant A path**, based on July residuals.
-- Add approximately **485 kWh/day from simulated day 8**: 10% of July mean daily electricity.
-- Blue line: accumulated evidence. Dashed line: limit. Red triangles: review crossings.
-- Drops after crossings: accumulation restarts. Simulated response does not establish observed degradation.
-- **Next:** evaluate repeated scenarios, beyond this single illustration.
+To show a review, I made an artificial Plant A example, adding about 485 kilowatt-hours every day from day eight. That’s ten percent of July’s average daily electricity.
 
-### Slide 15 — Simulation detection and review workload
+The blue line first crosses the dashed limit on day seventeen. That’s slower than typical in the tests I’ll show next, but within fourteen days of the increase starting. Accumulation restarts, and it crosses again on day twenty-six. The red triangles mark both reviews.
 
-**6:25–7:20 · 55 seconds.** Point to detection, delay and workload in that order.
+Here’s what happened across many artificial months.
 
-- **400 constructed 31-day paths per plant per scenario**; resample three-day July residual blocks. Sustained increase: added daily kWh equal to **10% of July mean electricity**.
-- Detected within 14 days: **A 95.25% / B 100%**.
-- Median delay **among detected paths**: **A 6 days / B 3 days**.
-- No-change paths with at least one review: **A 6.75% / B 7.5% over 31 days**. Path-level proportions, not daily or measured site false-alarm rates.
-- Same short July history used for calibration and simulations. Field fault accuracy, failure lead time and savings remain unverified. **Next: operator pilot.**
+## Simulation detection and review workload
 
-### Slide 16 — A pilot with BlueNexus operators
+For each test, I built 400 artificial 31-day months per plant by reshuffling July’s electricity variation in three-day chunks, after accounting for production.
 
-**7:20–8:00 · 40 seconds.** Follow the pilot stages, then finish on the question.
+With the sustained increase, about 95 percent of Plant A’s test months and all of Plant B’s triggered a review within fourteen days of the increase starting. Among detected cases, the median wait was 6 days for A and 3 days for B. The increase was larger relative to Plant B’s July variation, helping explain its faster response. The plants also have different monitor settings.
 
-- Delivered: reproducible analysis, inspectable monitor and dashboard with supporting readings and comparison limits.
-- Pilot: confirm equipment meanings/mappings; connect findings with dated operating/maintenance events; evaluate fresh data with agreed thresholds and review procedures.
-- Measure investigation usefulness and workload. Assess resource savings separately, with treatment-quality safeguards.
-- **Closing question:** “Which operating or maintenance events would you want us to compare these findings against first?”
+With no increase added, seven to eight percent of the artificial months still triggered at least one review: roughly one month in fourteen. That suggests a review workload in simulations; I still need to measure it at the site.
+
+These tests reuse July’s short history. I haven’t shown how reliably this detects real faults, how much warning it gives before failure, or whether it leads to savings.
+
+## A pilot with BlueNexus operators
+
+The next step would be a pilot with BlueNexus operators, following these three steps.
+
+First, we’d confirm what each equipment reading means, its units, how the daily values are calculated, and which pump it belongs to. That gives us a clearer basis for using the equipment data.
+
+Second, we’d review dated operating, maintenance and cleaning events with operators. That helps us connect changes in the readings to what was happening at the plant.
+
+Third, we’d test fresh data together, agreeing which periods to use as references, when to flag a review, and when to reset the monitor’s score.
+
+PlantPulse brings operational readings, historical context and electricity comparisons into one investigation workflow. Thank you.

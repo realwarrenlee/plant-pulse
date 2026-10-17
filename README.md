@@ -52,8 +52,8 @@ Open [localhost:5173](http://127.0.0.1:5173/). See the [frontend guide](frontend
 ## Analysis and submission
 
 - [Memo](MEMO.md): solution, results, limitations and next steps.
-- [Presentation cues](PRESENTATION.md): speaking notes.
+- [Presentation](PRESENTATION.md): speaking notes.
 - [Q&A](QNA.md): eight priority questions for the BlueNexus discussion.
 - [Notebook](data_review.ipynb): reproducible cleaning, analysis and evaluation. Run All with NumPy, pandas, Matplotlib and IPython available.
 - [Operational variables](OPERATIONAL_VARIABLES.md), [historical findings](HISTORICAL_ANALYSIS.md) and [detection approach](DETECTION_APPROACH.md): supporting evidence and methodology.
-- [Data notes](DATA.md): source descriptions, interpretation limits and confidentiality requirements. The supplied datasets and generated exports must not be published or redistributed without permission.
+- [Data](DATA.md): source descriptions, interpretation limits and confidentiality requirements. The supplied datasets and generated exports must not be published or redistributed without permission.
